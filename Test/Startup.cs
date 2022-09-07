@@ -36,7 +36,6 @@ namespace Test
             services.AddCoreSwagger(_serviceName, _ver, "Specify the SA token.");
             services.AddSwaggerGen();
             services.AddMediatR(typeof(Startup));
-            //services.AddMediatR(typeof(Startup).GetTypeInfo().Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
